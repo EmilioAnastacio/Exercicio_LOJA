@@ -1,0 +1,72 @@
+body{
+    /* font: normal 15px Arial; */
+    font-family: 'Titillium Web', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sessao-venda >h1{
+
+    display: flex;
+    justify-content: center;
+}
+
+#itens_espaco{
+
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#itens_espaco{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-header img {
+
+    width: 2vw;
+}
+
+img{
+
+    width: 70%;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+}
+.item-tudo {
+    
+    height: 45vh;
+    width: 15vw;
+    border: solid 1px #c8ff00;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 1%;
+
+}
+
+
